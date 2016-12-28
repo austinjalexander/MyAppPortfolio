@@ -8,9 +8,14 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+/*
+The following resources were used:
+https://developer.android.com/guide/topics/ui/notifiers/toasts.html
+https://www.mkyong.com/android/android-toast-example/
+http://stackoverflow.com/questions/25905086/multiple-buttons-onclicklistener-android
+ */
 
-    private Button button;
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
